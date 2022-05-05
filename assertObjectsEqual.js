@@ -16,11 +16,9 @@ const eqObjects = function (object1, object2) {
   for (let key of objOneKeys) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
       if (!eqArrays(object1[key], object2[key])) {
-        console.log('arrayyyy');
         return false;
       }
     } else if (object1[key] !== object2[key]) {
-      console.log('obj1', object1[key], 'obj2', object2[key]);
       return false;
     }
   }
@@ -41,4 +39,4 @@ const assertObjectsEqual = function (actual, expected) {
       );
 };
 
-assertObjectsEqual({a: 1, b: [2, 4], c: 123}, {b: [2, 4], a: 1, c: '123'});
+assertObjectsEqual({a: 1, b: [2, 4], c: 123}, {b: [2, 4], a: 1, c: 123});
