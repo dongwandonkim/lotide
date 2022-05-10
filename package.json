@@ -1,0 +1,59 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^4.0.1"
+  },
+  "name": "lotide",
+  "version": "1.0.0",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assertion-error": "^1.1.0",
+    "brace-expansion": "^1.1.11",
+    "balanced-match": "^1.0.2",
+    "browser-stdout": "^1.3.0",
+    "check-error": "^1.0.2",
+    "debug": "^3.1.0",
+    "concat-map": "^0.0.1",
+    "commander": "^2.11.0",
+    "diff": "^3.3.1",
+    "escape-string-regexp": "^1.0.5",
+    "fs.realpath": "^1.0.0",
+    "deep-eql": "^3.0.1",
+    "glob": "^7.1.2",
+    "get-func-name": "^2.0.0",
+    "growl": "^1.10.3",
+    "he": "^1.1.1",
+    "has-flag": "^2.0.0",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "loupe": "^2.3.4",
+    "minimatch": "^3.1.2",
+    "minimist": "^0.0.8",
+    "mkdirp": "^0.5.1",
+    "ms": "^2.0.0",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "pathval": "^1.1.1",
+    "supports-color": "^4.4.0",
+    "type-detect": "^4.0.8",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongwandonkim/lotide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongwandonkim/lotide/issues"
+  },
+  "homepage": "https://github.com/dongwandonkim/lotide#readme",
+  "description": ""
+}
