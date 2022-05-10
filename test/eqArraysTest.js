@@ -1,8 +1,15 @@
-// const assertEqual = require('../assertEqual');
-// const eqArrays = require('../eqArrays');
+const _ = require('../index');
+const assert = require('chai').assert;
 
-// const nested = [1, [2, 5, [6, 7]], 3];
-// const nested2 = [1, [2, 5, [6, 7]], 3];
+describe('#eqArrays', () => {
+  it('will return true if both arrays are same', () => {
+    const nested = [1, [2, 5, [6, 7]], 3];
+    const nested2 = [1, [2, 5, [6, 7]], 3];
+
+    assert.equal(_.eqArrays(nested, nested2), true);
+  });
+});
+
 // assertEqual(eqArrays(nested, nested2), true); // => true
 // assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
 
