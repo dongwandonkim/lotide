@@ -6,6 +6,7 @@ const letterPositions = require('./letterPositions');
 const findKeyByValue = require('./findKeyByValue');
 const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
+const flatten = require('./flatten');
 
 module.exports = {
   head,
@@ -16,4 +17,5 @@ module.exports = {
   findKeyByValue,
   eqArrays,
   eqObjects,
+  flatten,
 };
