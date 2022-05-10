@@ -3,7 +3,7 @@
     "chai": "^4.3.6",
     "mocha": "^4.0.1"
   },
-  "name": "lotide",
+  "name": "@dongwandonkim/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -49,11 +49,11 @@
     "url": "git+https://github.com/dongwandonkim/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "dongwan don kim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dongwandonkim/lotide/issues"
   },
   "homepage": "https://github.com/dongwandonkim/lotide#readme",
-  "description": ""
+  "description": "implemented few functions from lodash"
 }

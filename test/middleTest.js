@@ -1,4 +1,4 @@
-const middle = require('../middle');
+const _ = require('../index.js');
 // const assertArraysEqual = require('../assertArraysEqual');
 
 // assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
@@ -10,6 +10,6 @@ describe('#middle', () => {
   it('returns middle values from the passed in Array', () => {
     const actual = [1, 2, 3, 4, 5];
     const expected = [3];
-    assert.deepEqual(middle(actual), expected);
+    assert.deepEqual(_.middle(actual), expected);
   });
 });
